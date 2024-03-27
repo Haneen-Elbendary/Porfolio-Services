@@ -1,0 +1,70 @@
+//custom variables
+$primary: #4d13d1;
+$secondary: #4f4f4f;
+/*
+## Neutral 
+
+- White: #fff
+- Black: #000000
+- Grayish white: #FBF8F3
+*/
+//tags
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  text-transform: capitalize;
+}
+//reset ul
+ul {
+  list-style: none;
+  padding: 0 !important;
+}
+@media (min-width: 991px) {
+  section {
+    padding: 90px 0;
+  }
+}
+@media (min-width: 359px) {
+  .h1-first {
+    font-size: 50px !important;
+  }
+}
+.h1-first {
+  font-size: 35px;
+}
+.fs-lg {
+  font-size: 25px;
+}
+.control {
+  position: absolute;
+  top: calc(100% + 20px);
+}
+.carousel-indicators {
+  position: relative;
+}
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+}
+.carousel-item {
+  height: 135px;
+  overflow: hidden;
+}
+
+//import the function & variable
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-color: (
+  "altlight": #fbf8f3,
+  "altdark": #522192,
+  "golden": #f8cc1b,
+);
+
+$theme-colors: map-merge($custom-theme-color, $theme-colors);
+//import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

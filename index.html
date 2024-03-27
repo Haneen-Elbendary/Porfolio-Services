@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<!-- 1 px = 0625 rem -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Fiber</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-altlight py-3 px-2">
+      <div class="container-lg px-xl-5 px-sm-5">
+        <div class="col-4">
+          <a class="navbar-brand fs-4 fw-bold" href="#">fiber</a>
+        </div>
+        <button
+          class="navbar-toggler border p-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img
+            src="materials/images/Hamburger Menu.svg"
+            class="img-fluid"
+            alt="bars icon"
+          />
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-evenly"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item me-3">
+              <a class="nav-link active" aria-current="page" href="#"
+                >community</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+          </ul>
+          <div>
+            <a
+              class="btn mx-3 fw-bold d-none d-lg-inline"
+              role="button"
+              href="form.html"
+              target="_blank">sign in</a
+            >
+            <a
+              class="btn btn-primary fw-bold px-4 d-none d-lg-inline"
+              href="form.html"
+              target="_blank"
+              role="button"
+              >sign up</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="community" class="bg-altlight">
+      <div class="container px-5">
+        <div
+          class="row justify-content-between align-items-center flex-column-reverse flex-lg-row"
+        >
+          <div class="col-lg-6 mb-5">
+            <div class="d-none d-lg-block mb-2">
+              <span class="me-3 ">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </span>
+              <span> rated 4.8/5 (243 reviews)</span>
+            </div>
+            <h1 class="mb-3 text-black h1-first">
+              create your porfolio in minutes.
+            </h1>
+            <p class="text-secondary mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
+              recusandae! Architecto voluptatum obcaecati illum eum, et maiores
+              quaerat alias pariatur?
+            </p>
+            <div class="my-3 text-center text-lg-start">
+              <a
+              href="form.html"
+              target="_blank"
+                class="btn btn-primary d-block d-lg-inline btn-lg mb-3 me-lg-5"
+                >start free trial</a
+              >
+              <a href="form.html"
+              target="_blank" class="text-primary d-block d-lg-inline fw-bold">
+                view examples
+              </a>
+            </div>
+            <div class="row justify-content-center">
+              <div class="mt-lg-4">
+                <span
+                  ><i class="fa-solid fa-circle-check"></i>
+                  <img src="materials/images/Checkmark.svg" alt="Checkmark" />
+                  no credit card required
+                </span>
+                <span class="d-block d-lg-inline mb-3"></span>
+                <span class="ms-lg-4">
+                  <img src="materials/images/Checkmark.svg" alt="Checkmark" /><i
+                    class="fa-solid fa-circle-check"
+                  ></i>
+                  10 free templates
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-9">
+            <img
+              class="img-fluid mb-3 mb-lg-0"
+              src="materials/images/hero-Illustration.png"
+              alt="hero photo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="features" style="padding: 60px 0 0">
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <h5 class="fw-bold text-primary">why fiber?</h5>
+            <p class="text-black fs-lg fw-bold">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <div class="card-body">
+                <img src="materials/images/time.svg" alt="time" class="mb-3" />
+                <h5 class="card-title mb-3">build in minute</h5>
+
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content Lorem ipsum, dolor sit amet
+                  consectetur adipisicing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <div class="card-body">
+                <img src="materials/images/code.svg" alt="time" class="mb-3" />
+                <h5 class="card-title mb-3">build in minute</h5>
+
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content Lorem ipsum, dolor sit amet
+                  consectetur adipisicing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <div class="card-body">
+                <img
+                  src="materials/images/allSizes.svg"
+                  alt="time"
+                  class="mb-3"
+                />
+                <h5 class="card-title mb-3">build in minute</h5>
+
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content Lorem ipsum, dolor sit amet
+                  consectetur adipisicing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row justify-content-evenly bg-primary pt-5 px-3 px-lg-0 align-items-center rounded mt-5"
+        >
+          <div class="col-lg-5">
+            <h3 class="text-white fs-1">Diversify your portfolio.</h3>
+            <p class="text-white mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              consectetur error eos Lorem ipsum dolor sit amet consectetur Lorem
+              ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+            <a href="form.html"
+            target="_blank" class="btn bg-white fw-bold text-primary px-4 py-2 mb-5"
+              >start free trail</a
+            >
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="img-fluid"
+              src="materials/images/Page Image.png"
+              alt="page"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid px-lg-5">
+        <div class="row  justify-content-evenly  mt-5">
+          <div class=" col-11  col-lg-3 p-4 p-4 border border-1 rounded mb-3">
+            
+            <div class="row align-items-center mb-2">
+              <div class="w-auto me-0" >
+                <img
+                style="width: 50px;"
+                class="img-fluid"
+                src="materials/images/User Avatar.svg"
+                alt="user"
+              />
+              </div>
+              
+                <div class="w-auto px-0">
+                  <h3 class=" text-primary mb-0" style="font-size: 17px;">haneen elbendary</h3>
+                  <small  class=" text-muted   ">$100k in revenue</small>
+                </div>
+              
+            </div>
+          
+            <p >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              quidem velit, numquam similique quisquam id vero? In, neque .
+            </p>
+            <a href="
+            #" class="btn border border-1  text-primary w-100  fw-bold
+            px-5 py-2">
+          view haneen's portfolio
+          </a>
+          </div>
+          <div class=" col-11  col-lg-4 p-4 border border-1 rounded mb-3">
+            
+            <div class="row align-items-center mb-2">
+              <div class="w-auto me-0" >
+                <img
+                style="width: 50px;"
+                class="img-fluid"
+                src="materials/images/User Avatar 2.svg"
+                alt="user"
+              />
+              </div>
+              
+                <div class="w-auto px-0">
+                  <h3 class=" text-primary mb-0" style="font-size: 17px;">haneen elbendary</h3>
+                  <small  class=" text-muted   ">$100k in revenue</small>
+                </div>
+              
+            </div>
+          
+            <p >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              quidem velit, numquam similique quisquam id vero? In, neque .
+            </p>
+            <a href="
+            #" class="btn border border-1  text-primary w-100  fw-bold
+            px-5 py-2">
+          view haneen's portfolio
+          </a>
+          </div>
+          <div class=" col-11  col-lg-3 p-4 border border-1 rounded mb-3">
+            
+            <div class="row align-items-center mb-2">
+              <div class="w-auto me-0" >
+                <img
+                style="width: 50px;"
+                class="img-fluid"
+                src="materials/images/User Avatar 32.svg"
+                alt="user"
+              />
+              </div>
+              
+                <div class="w-auto px-0">
+                  <h3 class=" text-primary mb-0" style="font-size: 17px;">haneen elbendary</h3>
+                  <small  class=" text-muted   ">$100k in revenue</small>
+                </div>
+              
+            </div>
+          
+            <p >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              quidem velit, numquam similique quisquam id vero? In, neque .
+            </p>
+            <a href="
+            #" class="btn border border-1  text-primary w-100  fw-bold
+            px-5 py-2">
+          view haneen's portfolio
+          </a>
+          </div>
+
+        
+          </div>
+        </div>
+      </div>
+    <div class="container-fluid bg-altlight">
+      <div class="container ">
+        <div class="row justify-content-between pb-4 pt-5">
+          <div class="col-md-3">
+           <p class="fw-bold mb-2">fiber</p> 
+           <p class="mb-4 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, voluptates! Soluta est ratione.</p>
+           <p>made with ❤️ by hann00n.</p>
+          </div>
+        <div class="col-md-8">
+            <div class="row justify-content-between">
+              <div class="col-md-2">
+                <ul class="mb-3">
+                  <li class="fw-bold mb-3">sitemap</li>
+                  <li class="mb-1 text-muted">home</li>
+                  <li class="mb-1 text-muted">pricing</li>
+                  <li class="mb-1 text-muted">testimonails</li>
+                  <li class="mb-1 text-muted">features</li>
+                </ul>
+              </div>
+              <div class="col-md-2">
+                <ul class="mb-3">
+                  <li class="fw-bold mb-3">features</li>
+                  <li class="mb-1 text-muted">home</li>
+                  <li class="mb-1 text-muted">pricing</li>
+                  <li class="mb-1 text-muted">testimonails</li>
+               
+                </ul>
+              </div>
+              <div class="col-md-2">
+                <ul class="mb-3">
+                  <li class="fw-bold mb-3">pricing</li>
+                  <li class="mb-1 text-muted">home</li>
+                
+                  <li class="mb-1 text-muted">testimonails</li>
+                  <li class="mb-1 text-muted">features</li>
+                </ul>
+              </div>
+              <div class="col-md-2">
+                <ul class="mb-3">
+                  <li class="fw-bold mb-3">portfolio</li>
+                  <li class="mb-1 text-muted">home</li>
+        
+                  <li class="mb-1 text-muted">testimonails</li>
+                  <li class="mb-1 text-muted">features</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
